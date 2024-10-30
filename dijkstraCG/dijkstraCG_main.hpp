@@ -54,7 +54,7 @@ double dijkstra_main( 	const double* 	vertices,
                 long c2dTrgt = cn.idxTrgt2d;
                 long c2dSrc = cn.idxSrc2d;
                 c2dSrc =  cn.idxSrc2d == cn.idxTrgt2d  ? cn.idxSrc2d-1 : cn.idxSrc2d;
-                if (c2dSrc < 0) c2dSrc = nVertices-2;
+                if (c2dSrc < 0) c2dSrc = nContour-2;
                 if (c2dSrc == c2dTrgt) {
                     std::vector<int> throwVec;
                     throwVec.at(-1);
