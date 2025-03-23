@@ -19,6 +19,6 @@ When using this code for your own projects please cite the followig:
 
 
 ### License
-This repo is licensed under MIT licence.
+This repo is licensed under MIT license.
 
 

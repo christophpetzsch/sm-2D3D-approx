@@ -12,8 +12,8 @@ Morig = M;
 
 
 % downsampling settings for our experiments
-reductionFactor2d = 0.8;
-reductionFactor3d = 0.3;
+reductionFactor2d = 1.0;
+reductionFactor3d = 0.5;
 
 varWKS = 6;
 numEV = 25;
