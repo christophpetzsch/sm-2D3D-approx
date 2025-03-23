@@ -1,0 +1,1 @@
+mex tools/rotations.cpp -I"tools/eigen" CXXFLAGS='$CXXFLAGS -std=c++17'
